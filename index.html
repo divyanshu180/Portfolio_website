@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio WEB</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0c990ecb1c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">Aboout</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPER</p>
+                <h1>Hi, I'm <span>Divyanshu</span> Ranjan From Bhopal</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="Snapchat-1559694529.jpg" alt="Me">
+
+                </div>
+                <div class="about-col2">
+                    <h1 class="subTitle">About Me</h1>
+                    <p>Aspiring Full-Stack Developer passionate about crafting efficient, user-centric solutions.
+                        Proficient in both front-end and back-end technologies , I thrive on collaborative
+                        problem-solving and continuous learning. Eager to contribute innovative ideas and learn from
+                        experienced professionals to drive impactful projects. Open to new opportunities to apply my
+                        skills and grow in a dynamic Software development environment.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>JavaScript, Python</li>
+                            <li><span>Web Development</span><br>HTML5, CSS3, JavaScript</li>
+                            <li><span>Mern Stack</span><br>React.JS, Express.JS, Node.JS, MongoDB</li>
+                            <li><span>Database</span><br>SQL, MongoDB</li>
+                            <li><span>Developer Tools</span><br>Github, Figma, VS-Code</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>College</span><br>IES COllege Of Technology, Bhopal</li>
+                            <li><span>Course</span><br>B.Tech In Computer Science & Engineering</li>
+                            <li><span>Score</span><br>7.51 CGPA</li>
+                            <li><span>Passing Year</span><br>2024</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Projects">
+                        <ul>
+                            <li><span>Currency Converter</span><br>Skills :  Web Services, Web Development, HTML, Cascading Style Sheets (CSS), JavaScript, Web Design</li>
+                            <li><span>Portfolio Website</span><br>It is a full Responsive portfolio Website That's present a fully functional UI.</li>
+                            <li><span>Rock Paper Scissor Game</span><br>It's functional Game b/w user and computer(BOT). Where user can play & Fun with BOT :) </li>
+                            <li><span>Quiz WebApp</span><br>It's A functional Web App That Provide Quizes With different Topics. Where User Can Gain His knowledge By answering different Quiz Topics. <br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------SERVICES---------------------------------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subTitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Maxime iure hic cumque consequuntur
+                        eius
+                        libero fugiat!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing Maxime iure hic cumque consequuntur
+                        libero fugiat!</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subTitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="portfolio1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Portfolio Web-App</h3>
+                        <p>This Web App Show The Portfolio Of Any Individual And Describe the all Skills and many more.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="currency1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Currency Converter</h3>
+                        <p>This Web App Show The Portfolio Of Any Individual And Describe the all Skills and many more.
+                        </p>
+                        <a href="https://divyanshu180.github.io/RD-Currency-Converter/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="game.jpg" alt="">
+                    <div class="layer">
+                        <h3>Portfolio Web-App</h3>
+                        <p>This Web App Show The Portfolio Of Any Individual And Describe the all Skills and many more.
+                        </p>
+                        <a href="https://divyanshu180.github.io/WebRPSGame/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!---------------------Contact------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> divyanshu180r@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 918081214709</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/divyanshu-ranjan-559562220/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/ig__divyanshu_180/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/divyanshu180"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.threads.net/login"><i class="fa-brands fa-square-threads"></i></a>
+                    </div>
+                    <a href="Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; DRanjan. (RD-Portfolio) </p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
